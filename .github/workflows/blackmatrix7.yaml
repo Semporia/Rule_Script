@@ -2,7 +2,7 @@ name: blackmatrix7-sync
 on:
   push:
       branches:
-        - master
+        - main
   schedule:
     #  格林威治时间 (GMT) 每日01时开始执行
     - cron: '0 1 * * *'
